@@ -50,15 +50,15 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#fafafa] p-6 text-gray-900 font-sans selection:bg-primary/20">
+    <div className="min-h-screen flex items-center justify-center bg-[#fafafa] p-4 py-12 md:p-8 text-gray-900 font-sans selection:bg-primary/20 overflow-y-auto">
       {/* Decorative Elements */}
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none overflow-hidden z-0">
         <div className="absolute top-[-10%] right-[-5%] w-[40%] h-[40%] bg-primary/5 rounded-full blur-[120px]"></div>
         <div className="absolute bottom-[-10%] left-[-5%] w-[40%] h-[40%] bg-accent/5 rounded-full blur-[120px]"></div>
       </div>
 
-      <div className="w-full max-w-[460px] relative z-10">
-        <div className="bg-white rounded-[48px] shadow-[0_32px_80px_-16px_rgba(0,0,0,0.12)] border border-gray-100 p-8 md:p-12 overflow-hidden relative">
+      <div className="w-full max-w-[460px] relative z-10 my-auto">
+        <div className="bg-white rounded-[48px] shadow-[0_32px_80px_-16px_rgba(0,0,0,0.12)] border border-gray-100 p-8 md:p-12 mb-8 relative">
           
           <div className="absolute top-0 left-0 w-full h-1.5 bg-gray-50 flex">
              <div className={cn("h-full bg-primary transition-all duration-500", isSignUp ? "w-full" : "w-1/2")}></div>
