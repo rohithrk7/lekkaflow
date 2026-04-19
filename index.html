@@ -2,30 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>LekkaFlow | Smarter Retail Billing</title>
-    <meta name="description" content="Production-ready retail billing SaaS for Indian retail markets. Barcode scanning, GST ready, WhatsApp integration." />
+    <title>LekkaFlow | Pro Retail Cloud Terminal</title>
+    <meta name="description" content="Secure, cloud-synced retail billing SaaS for Indian shopkeepers. Barcode scanning, GST ready, WhatsApp integration." />
     
     <!-- PWA -->
-    <meta name="theme-color" content="#10B981" />
+    <meta name="theme-color" content="#2563eb" />
     <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="/icon-192.png" />
     
     <!-- SEO -->
-    <meta property="og:title" content="LekkaFlow - Smart POS" />
-    <meta property="og:description" content="GST-ready billing with barcode scanning." />
+    <meta property="og:title" content="LekkaFlow - Smart Retail POS" />
+    <meta property="og:description" content="Secure, cloud-synced retail terminal for smart shops." />
     <meta property="og:type" content="website" />
     
     <style>
       /* Prevent elastic bounce on mobile */
       html, body {
         overscroll-behavior-y: contain;
-        overflow: hidden;
+        background-color: #fafafa;
+      }
+      #root {
+        height: 100%;
+        width: 100%;
       }
     </style>
   </head>
-  <body class="bg-gray-50 flex items-center justify-center">
+  <body class="bg-[#fafafa]">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

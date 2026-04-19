@@ -7,22 +7,19 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+      includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'BillSwift Retail Billing',
-        short_name: 'BillSwift',
-        description: 'GST-ready retail billing for India',
-        theme_color: '#10B981',
+        name: 'LekkaFlow Retail Billing',
+        short_name: 'LekkaFlow',
+        description: 'Smart retail billing and inventory for Indian shopkeepers',
+        theme_color: '#2563eb',
+        background_color: '#ffffff',
+        display: 'standalone',
         icons: [
           {
-            src: 'https://cdn-icons-png.flaticon.com/512/3067/3067167.png',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: 'https://cdn-icons-png.flaticon.com/512/3067/3067167.png',
-            sizes: '512x512',
-            type: 'image/png'
+            src: '/favicon.svg',
+            sizes: 'any',
+            type: 'image/svg+xml'
           }
         ]
       }

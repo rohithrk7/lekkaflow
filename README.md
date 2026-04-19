@@ -1,16 +1,32 @@
-# React + Vite
+# LekkaFlow | Pro Retail Cloud Terminal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LekkaFlow is a high-fidelity, production-ready retail billing SaaS designed for Indian shopkeepers. It combines the simplicity of a mobile app with the power of an enterprise POS system.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+- **Cloud-Synced Billing**: Real-time synchronization with Firebase Firestore.
+- **Smart Barcode Scanning**: Integrated camera scanner with global product database lookup.
+- **WhatsApp Integration**: Instant billing sharing with customers via WhatsApp.
+- **Business Analytics**: High-quality charts for sales tracking and inventory insights.
+- **Historical Invoicing**: Generate and print professional PDFs of past transactions.
+- **Enterprise Security**: Secure login/signup with individual store data isolation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend**: React 19 + Vite 6
+- **Styling**: Tailwind CSS 4
+- **Backend**: Firebase (Auth & Firestore)
+- **Icons**: Lucide React
+- **PDFs**: jsPDF + html2canvas
+- **Scanner**: html5-qrcode
 
-## React Compiler
+## 📦 Getting Started
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Create a `.env` file with your Firebase credentials.
+4. Run locally: `npm run dev`
+5. Access on your local network to use your phone as a scanner!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Deployment
+Optimized for zero-config deployment on **Vercel**. Ensure you set the `NPM_CONFIG_LEGACY_PEER_DEPS=true` environment variable in the Vercel dashboard.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Made with ❤️ for Indian Retailers.
